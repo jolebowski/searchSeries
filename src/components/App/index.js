@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'whatwg-fetch';
-import Main from '../src/components/Main';
+import Main from '../../components/Main';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -15,7 +15,7 @@ class App extends Component {
               <AppBar position="static" >
                   <Toolbar >
                       <Typography variant="title" color="inherit" style={{flex:1}} align="center">
-                          SearchSeries
+                          TV Series
                       </Typography>
                   </Toolbar>
               </AppBar>
