@@ -25,7 +25,7 @@ class Movies extends Component{
         return(
             <div>
                 <div>
-                    <p>Recherchez n'importe quel série qui se trouve dans notre base de donnée</p>
+                    <p>Recherchez n'importe quel série qui se trouve dans notre base de données</p>
                     <TextField
                         id="search"
                         label="Recherche"
