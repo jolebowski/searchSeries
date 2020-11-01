@@ -1,13 +1,13 @@
 
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Movies from "../../containers/Movies";
 import MoviesOnly from "../../containers/MoviesOnly";
 
-const Main = props =>(
+const Main = () => (
     <Switch>
-        <Route exact path="/" component={Movies}/>
-        <Route path="/movies/:id" component ={MoviesOnly}/>
+        <Route exact path="/" component={Movies} />
+        <Route path="/movies/:id" component={MoviesOnly} />
     </Switch>
 );
 
